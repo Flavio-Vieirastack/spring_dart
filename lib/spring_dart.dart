@@ -1,3 +1,7 @@
-int calculate() {
-  return 6 * 7;
+library spring_dart;
+
+/// A Calculator.
+class Calculator {
+  /// Returns [value] plus 1.
+  int addOne(int value) => value + 1;
 }
